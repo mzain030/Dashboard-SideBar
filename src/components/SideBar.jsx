@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import { FaCommentAlt, FaRegChartBar, FaShoppingBag, FaTh, FaThList,FaBars, FaUserAlt } from "react-icons/fa";
+
+import { FcComments } from "react-icons/fc";
+import { FcOrganization } from "react-icons/fc";
+import { FcPortraitMode } from "react-icons/fc";
 import { NavLink } from 'react-router-dom';
+import { FcList,FcBusiness ,FcBarChart  } from "react-icons/fc";
 export const SideBar = ({children}) => {
   const[isOpen ,setIsOpen] = useState(false);
     const toggle = () => setIsOpen (!isOpen);
@@ -8,32 +13,32 @@ export const SideBar = ({children}) => {
     {
       path:"/",
       name:"Dashboard",
-      icon:<FaTh/>
+      icon:<FcOrganization/>
     },
     {
       path:"/about",
       name:"About",
-      icon:<FaUserAlt/>
+      icon:<FcPortraitMode/>
     },
     {
       path:"/analatics",
       name:"Analatics",
-      icon:<FaRegChartBar/>
+      icon:<FcBarChart />
     },
     {
       path:"/comment",
       name:"Comment",
-      icon:<FaCommentAlt/>
+      icon:<FcComments/>
     },
     {
       path:"/product",
       name:"Product",
-      icon:<FaShoppingBag/>
+      icon:<FaShoppingBag />
     },
     {
       path:"/productList",
       name:"ProductList",
-      icon:<FaThList/>
+      icon:<FcList/>
     }
   ]
   return (
