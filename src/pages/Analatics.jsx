@@ -2,7 +2,9 @@ import React from 'react'
 
 const Analatics = () => {
   return (
-    <div>Analatics</div>
+    <div>
+      <h1>Analatics Page</h1>
+    </div>
   )
 }
 

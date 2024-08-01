@@ -2,7 +2,9 @@ import React from 'react'
 
 const Comment = () => {
   return (
-    <div>Comment Page</div>
+    <div>
+      <h1>Comment Page</h1>
+    </div>
   )
 }
 
