@@ -8,7 +8,7 @@ import Analatics from './pages/Analatics';
 import Comment from './pages/Comment';
 import Product from './pages/Product';
 import ProductList from './pages/ProductList';
-
+import "./pages/style.css"
 function App() {
   return (
     <div className="App">

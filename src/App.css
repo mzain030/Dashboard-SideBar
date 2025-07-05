@@ -21,6 +21,7 @@ main{
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: 645px;
+  cursor: progress;
 }
 .top_section{
   display: flex;
